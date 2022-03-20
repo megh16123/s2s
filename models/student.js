@@ -23,17 +23,17 @@ const studentDat = new mongoose.Schema({
     },
     contact:{
         type:Number,
-        maxlength:[12,"Contact cannot exceed 10 numbers"],
+        maxlength:[10,"Contact cannot exceed 10 numbers"],
         required:true
     },
     Fcontact:{
         type:Number,
-        maxlength:[12,"Contact cannot exceed 10 numbers"],
+        maxlength:[10,"Contact cannot exceed 10 numbers"],
         required:true    
     },
     fee:{
         type:Number,
-        required:true
+        required:true 
     }
 });
 
