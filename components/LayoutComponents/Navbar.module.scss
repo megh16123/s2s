@@ -23,3 +23,43 @@
         }
     }
 }
+@media (max-width:768px){
+    .navbar{
+        // flex-direction: column;
+        .burger{
+            position:absolute;
+            display: flex;
+            flex-direction: column;
+            top: 2.5%;
+            right: 1%;
+            .line{
+                background-color: black;
+                height: 4px;
+                
+                margin: 3px auto;
+                &:nth-child(3){
+                    width: 30px;  
+                }
+                &:nth-child(2){
+                    width: 27px;  
+                    margin-left: 3px;
+                }
+                &:nth-child(1){
+                    width: 25px;  
+                    margin-left: 5px;
+                }
+            }
+        }
+        .navlinks{
+            display: none;
+            width: 100%;
+            li{
+                margin: 4% auto;
+            }
+        }
+        .navbar #show{
+            height: 400px;
+            flex-direction: column;
+        }
+    }
+}

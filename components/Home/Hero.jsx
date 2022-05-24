@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Hero.module.scss'
 import Navbar from '../LayoutComponents/Navbar'
 import Image from 'next/image'
+import Footer from '../LayoutComponents/footer'
 function Hero() {
   return (
 
@@ -45,6 +46,16 @@ function Hero() {
           <h4>Online Course</h4>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, aut minima nobis dolores asperiores animi!</p>
         </div>
+        {/* <div className={styles.card}>
+        <div className={styles.card_icon}></div>
+          <h4>Online Course</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, aut minima nobis dolores asperiores animi!</p>
+        </div> */}
+        {/* <div className={styles.card}>
+        <div className={styles.card_icon}></div>
+          <h4>Online Course</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, aut minima nobis dolores asperiores animi!</p>
+        </div> */}
         
         </div>
       </section>
@@ -99,6 +110,47 @@ function Hero() {
         <h3>JEE Main course for beginner</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officia deleniti sequi culpa exercitationem cumque, explicabo sed! Sapiente, debitis ea?</p>
         </div>
+      </section>
+
+      <section className={styles.sixth}>
+        <h2>Our Professional Mentors</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit. Enim vitae nemo nihil ullam doloremque ex!</p>
+        <div className={styles.mentors_component}>
+          <div className={styles.mentor}>
+            <div className={styles.img}>
+            </div>
+              <h3>Lorem ipsum</h3>
+              <h4>UI/UX</h4>
+          </div>
+        
+          <div className={styles.mentor}>
+            <div className={styles.img}>
+            </div>
+              <h3>Lorem ipsum</h3>
+              <h4>UI/UX</h4>
+          </div>
+        
+          <div className={styles.mentor}>
+            <div className={styles.img}>
+            </div>
+              <h3>Lorem ipsum</h3>
+              <h4>UI/UX</h4>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.seventh}>
+          <div className={styles.upper_div}>
+            <div className={styles.left}>
+              Are You Ready To Start Your Course Now
+            </div>
+            <div className={styles.right}>
+              <div className={styles.contact_now}>
+                Contact Us
+              </div>
+            </div>
+          </div>
+      <Footer/>
       </section>
     </div>
   )
