@@ -16,6 +16,7 @@
         list-style: none;
         justify-content: space-around;
         width: 60%;
+        margin-left: 10%;
         li{
             font-weight: 500;
             cursor: pointer;
@@ -57,9 +58,11 @@
                 margin: 4% auto;
             }
         }
-        .navbar #show{
+        #show{
+            display: block;
             height: 400px;
             flex-direction: column;
+            background-color: red;
         }
     }
 }

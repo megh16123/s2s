@@ -139,7 +139,7 @@ function Hero() {
         </div>
       </section>
 
-      <section className={styles.seventh}>
+      {/* <section className={styles.seventh}>
           <div className={styles.upper_div}>
             <div className={styles.left}>
               Are You Ready To Start Your Course Now
@@ -149,9 +149,9 @@ function Hero() {
                 Contact Us
               </div>
             </div>
-          </div>
+          </div> */}
       <Footer/>
-      </section>
+      {/* </section> */}
     </div>
   )
 }

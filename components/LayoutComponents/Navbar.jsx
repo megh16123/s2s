@@ -8,11 +8,11 @@ function Navbar() {
         <div className={styles.logo}>
             <Image src="/logo.png" alt="logo" width="50" height="50"></Image>
         </div>
-        <ul className={styles.navlinks} id={showlinks ? "show": ""}>
+        <ul className={styles.navlinks} id="show">
         <li>Home</li>
-        <li>Online Teaching</li>
-        <li>Schedule</li>
-        <li>Contact</li>
+        <li>Classes</li>
+        <li>About Us</li>
+        <li>Contact Us</li>
         </ul>
         <div className={styles.burger} onClick={()=>setShowLinks(!showlinks)}>
           <div className={styles.line}></div>

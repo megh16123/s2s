@@ -3,6 +3,19 @@ import styles from './footer.module.scss'
 
 function footer() {
   return (
+      
+    <section className={styles.seventh}>
+    <div className={styles.upper_div}>
+      <div className={styles.left}>
+        Are You Ready To Start Your Course Now
+      </div>
+      <div className={styles.right}>
+        <div className={styles.contact_now}>
+          Contact Us
+        </div>
+      </div>
+    </div>
+
     <footer className={styles.footer}>
         <div className={styles.products}>
             <h2>Products</h2>
@@ -46,6 +59,8 @@ function footer() {
             </ul>
         </div>
     </footer>
+    
+</section>
   )
 }
 
